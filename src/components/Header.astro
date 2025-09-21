@@ -1,21 +1,25 @@
 <div>
-      <header id="header">
-		<div>
-			<h1>Hi! I'm Sachin. <span class="accent"> Full Stack</span> Web & App Developer</h1>
-			<p>I’m a Full-Stack Developer specializing in React.js, Next.js, Node.js,
-				and database management. I build scalable, high-performance web
-				applications, robust back-end architecture, and efficient API
-				integrations.</p>
-				<div class="button-container mt-5">
-					<a href="/">View Projects</a>
-					<a href="/" download>Download Resume</a>
-				</div>
-		</div>
-		<img src="/images/me.jpg" class="w-48 rounded-full mt-5 " />
-	</header>
+  <header id="header">
+    <div>
+      <h1>
+        Hi! I'm Sachin. <span class="accent"> Full Stack</span> Web & App Developer
+      </h1>
+      <p>
+        I’m a Full-Stack Developer specializing in React.js, Next.js, Node.js,
+        and database management. I build scalable, high-performance web
+        applications, robust back-end architecture, and efficient API
+        integrations.
+      </p>
+      <div class="button-container mt-5">
+        <a href="/">View Projects</a>
+        <a href="/" download>Download Resume</a>
+      </div>
+    </div>
+    <img src="/images/me.jpg" class="w-48 rounded-full mt-5" />
+  </header>
 </div>
 
-    <style>
+<style>
   #header {
     display: grid;
     grid-template-columns: 540px 1fr;
@@ -28,15 +32,15 @@
       margin-bottom: 10px;
       display: flex;
       flex-direction: column;
-      
+
       .accent {
-        color: var(--primary);     
+        color: var(--primary);
       }
     }
 
     .button-container {
       display: flex;
-      gap: 10px;      
+      gap: 10px;
     }
 
     .description {
@@ -58,13 +62,10 @@
     }
 
     @media (max-width: 600px) {
-
       .button-container {
         flex-direction: column;
-        gap:10px;
+        gap: 10px;
       }
     }
-
-   
   }
 </style>
