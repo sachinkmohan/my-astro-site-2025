@@ -1,4 +1,4 @@
-<div>
+<div class="container">
   <header id="header">
     <div>
       <h1>
@@ -11,8 +11,8 @@
         integrations.
       </p>
       <div class="button-container mt-5">
-        <a href="/">View Projects</a>
-        <a href="/" download>Download Resume</a>
+        <a class="button-link secondary" href="/">View Projects</a>
+        <a class="button-link primary" href="/" download>Download Resume</a>
       </div>
     </div>
     <img src="/images/me.jpg" class="w-48 rounded-full mt-5" />
@@ -20,6 +20,34 @@
 </div>
 
 <style>
+    .button-link{
+        padding: 1em; 
+        text-align: center;
+        border-radius: 5px;
+        width: 230px;
+    }
+
+    .primary{
+        background-color: var(--primary);
+        color: white;
+    }
+
+    .secondary{
+        background: white;
+        color: var(--primary);
+        border: 1px solid var(--primary);
+    }
+    .container{
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 60px;
+
+        @media screen and (max-width: 1000px){
+            & {
+                padding: 0 24px;
+            }
+        }
+    }
   #header {
     display: grid;
     grid-template-columns: 540px 1fr;
