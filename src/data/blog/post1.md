@@ -36,7 +36,3 @@ Automation can also reduce the burden of documentation. Infrastructure diagrams 
 ## Conclusion
 
 Documentation is a critical part of DevOps that enables faster onboarding, reduces downtime, and ensures compliance. While it may not seem as urgent as automation or infrastructure management, its long-term benefits are significant. Teams that prioritize documentation create more scalable, resilient, and efficient DevOps workflows.
-
-```
-
-```
