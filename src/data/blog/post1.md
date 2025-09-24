@@ -13,6 +13,10 @@ When thinking about DevOps, the focus is often on automation, CI/CD pipelines, a
 
 ## Why Documentation Matters in DevOps
 
+```
+const x = 10;
+```
+
 A well-documented process allows new team members to onboard faster, reducing the time spent figuring out existing workflows and infrastructure. Without clear documentation, teams rely on tribal knowledge, which creates bottlenecks and risks when key team members leave.
 
 During incidents, engineers need immediate access to troubleshooting steps. Clear runbooks and response guides help reduce downtime and ensure a quick resolution. Documentation also plays a key role in compliance, making it easier to meet security and audit requirements such as SOC 2, ISO 27001, and GDPR.
@@ -32,3 +36,7 @@ Automation can also reduce the burden of documentation. Infrastructure diagrams 
 ## Conclusion
 
 Documentation is a critical part of DevOps that enables faster onboarding, reduces downtime, and ensures compliance. While it may not seem as urgent as automation or infrastructure management, its long-term benefits are significant. Teams that prioritize documentation create more scalable, resilient, and efficient DevOps workflows.
+
+```
+
+```
